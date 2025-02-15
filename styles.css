@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: red; */
+}
+
+#personal_details{
+    /* overflow: hidden; */
+    position: relative;
+    width: 100%;
+    min-height: 15vh;
+    /* background-color: aliceblue; */
+}
+
+#pdcontent{
+    position: absolute;
+    /* padding-left: 30vw; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+#pdcontent h1{
+    padding-left: 40vw;
+}
+
+#pdcontent p{
+    padding-left: 25vw;
+}
+
+#pdcontent #contacts{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 5vw;
+    padding-left: 20vw;
+}
+
+
+#pdcontent #contacts i{
+    color: #73b9c2
+}
+
+#work_experience{
+    width: 100%;
+    min-height: 30vh;
+    /* background-color: antiquewhite; */
+    line-height: 5vh;
+}
+
+#wecontent{
+    padding-left: 15px;
+}
+
+#wecontent #role_duration{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* #weheading hr{
+    padding-top: 10px;
+} */
+
+#weheading h1{
+    color: #73b9c2;
+    padding-bottom: 3px;
+}
+
+#we1 h2{
+    padding-top: 5px;
+}
+
+
+
+ul {
+    list-style: disc; /* Ensures bullets appear */
+    padding-left: 40px; /* Adds indentation */
+}
+
+#education{
+    width: 100%;
+    min-height: 6vh;
+    /* background-color: aqua; */
+    padding-left: 15px;
+}
+
+#econtent{
+    /* padding-left: 15px; */
+    padding-top: 15px;
+}
+
+#e1 h2{
+    padding-top: 1vh;
+}
+
+#e1 #eduration{
+    padding-top: 1vh;
+}
+
+#e1 #eduration{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* #weheading hr{
+    padding-top: 10px;
+} */
+
+#eheading h1{
+    color: #73b9c2;
+    padding-bottom: 3px;
+}
+
+
+#projects{
+    width: 100%;
+    min-height: 40vh;
+    /* background-color: aquamarine; */
+    line-height: 5vh;
+}
+
+#projectscontent{
+    padding-top: 20px;
+}
+
+#projectsheading h1{
+    color: #73b9c2;
+    padding-bottom: 1vh;
+}
+
+#project1duration{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1vh;
+}
+
+#project1duration h3  i{
+    color: #73b9c2;
+}
+
+#project2content{
+    padding-top: 5px;
+}
+
+#project2duration{
+    display: flex;
+    justify-content: space-between;
+}
+
+#project2duration h3 i{
+    color: #73b9c2;
+}
+
+#skills{
+    width: 100%;
+    min-height: 10vh;
+    line-height: 5vh;
+    /* background-color: azure; */
+}
+
+
+#skillscontent{
+    padding-left: 15px;
+}
+
+#skillsheading h1{
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    color: #73b9c2;
+}
+
+#achievements{
+    width: 100%;
+    min-height: 4vh;
+    /* background-color: black; */
+}
+
+#achievementscontent{
+    padding-left: 15px;
+}
+
+#achievementsheading h1{
+    padding-top: 1vh;
+    color: #73b9c2;
+}
+
+#achievementscontent ul li{
+    padding-top: 1vh;
+}
